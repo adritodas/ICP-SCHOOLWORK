@@ -1,0 +1,5 @@
+first = int(input("1st grade: "))
+second = int(input("2nd grade: "))
+third = int(input("3rd grade: "))
+avg = round((first+second+third)/3)
+print(f"Average grade: {avg}")
